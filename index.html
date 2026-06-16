@@ -3,42 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Damian Zawidzki Portfolio</title>
+    <title>Damian Zawidzki | Software Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Damian Zawidzki</h1>
-    <p>Software Engineer | Web Developer | Mobile Developer</p>
+<nav>
+    <h2>Damian.dev</h2>
+
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="hero-text">
+        <p class="tag">Software Engineer</p>
+
+        <h1>Hi, I am Damian Zawidzki</h1>
+
+        <p>
+            I build modern web, mobile and backend applications using
+            ASP.NET Core, React, Kotlin, PostgreSQL and GitHub.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-card">
+        <h3>Currently focusing on</h3>
+        <p>Web Development</p>
+        <p>Mobile Applications</p>
+        <p>Backend APIs</p>
+        <p>Database Systems</p>
+    </div>
 </header>
 
-<section class="about">
+<section id="about">
     <h2>About Me</h2>
+
     <p>
-        I am a Software Engineering graduate with experience in web development,
-        mobile applications, databases and backend systems.
+        I am a Software Engineering graduate based in Leicester, UK.
+        I enjoy building practical software systems, including web dashboards,
+        mobile applications, backend APIs and database-driven platforms.
     </p>
 </section>
 
-<section class="projects">
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>React</span>
+        <span>C#</span>
+        <span>ASP.NET Core</span>
+        <span>PostgreSQL</span>
+        <span>SQL</span>
+        <span>Kotlin</span>
+        <span>Android Studio</span>
+        <span>Git & GitHub</span>
+    </div>
+</section>
+
+<section id="projects">
     <h2>Projects</h2>
 
-    <div class="project">
-        <h3>SmartStockSuite</h3>
-        <p>Inventory Management System with barcode scanning and web dashboard.</p>
-    </div>
+    <div class="projects-grid">
 
-    <div class="project">
-        <h3>DZCoffee App</h3>
-        <p>Android application built with Kotlin and Firebase.</p>
+        <div class="project-card">
+            <h3>SmartStockSuite</h3>
+
+            <p>
+                A smart inventory management system with a web dashboard,
+                barcode scanning, role-based access control and audit logging.
+            </p>
+
+            <p class="tech">ASP.NET Core · PostgreSQL · React · Android</p>
+        </div>
+
+        <div class="project-card">
+            <h3>DZCoffee App</h3>
+
+            <p>
+                Android coffee ordering application with customer login,
+                product selection, cart system and Firebase integration.
+            </p>
+
+            <p class="tech">Kotlin · Firebase · Android Studio</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Smart Security IoT</h3>
+
+            <p>
+                Arduino and ESP8266 based security system with sensors,
+                keypad alarm, OLED display and web dashboard.
+            </p>
+
+            <p class="tech">Arduino · ESP8266 · C++ · IoT</p>
+        </div>
+
     </div>
 </section>
 
-<section class="contact">
+<section id="contact">
     <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
+
+    <p>Email: pepik130690@gmail.com</p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/damianzawidzki" target="_blank">
+            github.com/damianzawidzki
+        </a>
+    </p>
 </section>
+
+<footer>
+    <p>© 2026 Damian Zawidzki. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
